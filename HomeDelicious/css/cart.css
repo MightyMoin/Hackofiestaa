@@ -157,8 +157,7 @@ html, body {
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
-    color: #333;
-    margin-bottom: 15px;
+    color: #fac564;    margin-bottom: 15px;
 }
 
 .shop-item-image {
@@ -173,8 +172,7 @@ html, body {
 
 .shop-item-price {
     flex-grow: 1;
-    color: #333;
-}
+    color: #fac564;}
 
 .shop-items {
     display: flex;
@@ -185,13 +183,13 @@ html, body {
 .cart-header {
     font-weight: bold;
     font-size: 1.25em;
-    color: #333;
+    color: #fac564;
 }
 
 .cart-column {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fac564;
     margin-right: 1.5em;
     padding-bottom: 10px;
     margin-top: 10px;
@@ -208,7 +206,7 @@ html, body {
 .cart-price {
     width: 20%;
     font-size: 1.2em;
-    color: #333;
+    color: #fac564;
 }
 
 .cart-quantity {
@@ -216,7 +214,7 @@ html, body {
 }
 
 .cart-item-title {
-    color: #333;
+    color: #fac564;
     margin-left: .5em;
     font-size: 1.2em;
 }
@@ -236,7 +234,7 @@ html, body {
 }
 
 .btn-danger:hover {
-    background-color: #CC4C4C;
+    background-color: rgb(233, 13, 13);
 }
 
 .cart-quantity-input {
@@ -253,7 +251,7 @@ html, body {
 }
 
 .cart-row:last-child {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #fac564;
 }
 
 .cart-row:last-child .cart-column {
@@ -264,17 +262,18 @@ html, body {
     text-align: end;
     margin-top: 10px;
     margin-right: 10px;
+    color: #fac564;
 }
 
 .cart-total-title {
     font-weight: bold;
     font-size: 1.5em;
-    color: black;
+    color: #fac564;
     margin-right: 20px;
 }
 
 .cart-total-price {
-    color: #333;
+    color: #fff;
     font-size: 1.1em;
 }
 
